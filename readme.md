@@ -34,7 +34,7 @@ Template source can be found in `_layouts`. Component source can be found in `_i
 ## Sass Structure
 The main file can be found in `css/main.scss`. This file serves as the Sass "Table of Contents" and where you will add your Sass `@imports`. The file includes Jekyll Front-Matter at the top. You must keep this as is if using the out-of-the-box Jekyll Sass compiler. If you decide to use a Gem or Build tool to manage/compile assets, then this will change.
 
-Sass file are included the `_sass/` folder. I've added `mixins.scss`, `variables.scss` and `base.scss` file to the boilerplate.
+Sass files live in the `_sass/` folder. I've added `mixins.scss`, `variables.scss` and `base.scss` file to the boilerplate.
 
 ## Mixins.scss
 The `mixins.scss` file includes a function to calculate `ems` from pixels. This is very useful if you are using a **relative sizing approach** as CSS base, which I am. This means everything will use `ems` and `percentages`, **not pixels**.
@@ -45,7 +45,7 @@ Here is how you use this mixin within a selector:
   font-size: calc-em(18px); 
 }
 ```
-Use: `calc-em(18px)`
+So, use: `calc-em(18px)`
 
 ## Variables.scss
 The `variables.scss` file includes example color, measurement, breakpoint, and typography variables you may want to include within your project architecture. I try to name variables semantically (purpose, NOT appearance).
