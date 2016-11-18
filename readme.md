@@ -32,7 +32,9 @@ This will start up a server on port 4000, and it will reload on any changes to S
 Template source can be found in `_layouts`. Component source can be found in `_includes`. Sass styles can be found in `_sass`. 
 
 ## Sass Structure
-The main file can be found in `css/main.scss`. This is where you will add your Sass `@imports`. I've added a `mixins.scss`, `variables.scss` and `base.scss` file, all inside the `_sass/` folder. All Sass files should live within that folder.
+The main file can be found in `css/main.scss`. This file serves as the Sass "Table of Contents" and where you will add your Sass `@imports`. The file includes Jekyll Front-Matter at the top. You must keep this as is if using the out-of-the-box Jekyll Sass compiler. If you decide to use a Gem or Build tool to manage/compile assets, then this will change.
+
+Sass file are included the `_sass/` folder. I've added `mixins.scss`, `variables.scss` and `base.scss` file to the boilerplate.
 
 ## Mixins.scss
 The `mixins.scss` file includes a function to calculate `ems` from pixels. This is very useful if you are using a **relative sizing approach** as CSS base, which I am. This means everything will use `ems` and `percentages`, **not pixels**.
