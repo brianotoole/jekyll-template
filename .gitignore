@@ -1,0 +1,13 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# Mac
+.DS_Store
+_sass/.DS_store
+img/.DS_Store
+
+# NPM files
+node_modules
+npm-debug.log

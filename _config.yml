@@ -1,0 +1,23 @@
+# Site settings
+title: Jekyll Template
+email: brian@brianzotoole.com
+description: #
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, ex: "https://brianzotoole.com"
+twitter: brianotoole
+github:  brianotoole
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
+# Sass 
+sass:
+    style: :compressed  
+ 
+# Gems 
+gems:
+  - jekyll-feed
