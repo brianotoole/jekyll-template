@@ -12,19 +12,23 @@ You may need to include sudo at the start if there is a permissions error.
 
 #####2. Install jekyll bundle:
 
-`jekyll new sitename`
+`jekyll new your-site-name`
 
 #####3. Build and view the website locally:
 
-`cd sitename`
+`cd your-site-name`
 
-#####4. Serve up the site:
+#####4. Clone repo:
+
+`git clone https://github.com/brianotoole/jekyll-template.git`
+
+#####5. Serve up the site:
 
 `bundle exec jekyll serve`
 
 This will start up a server on port 4000, and it will reload on any changes to Sass, JS, and content.
 
-#####4. View the website:
+#####6. View the site:
 
 `http://localhost:4000` or `http://127.0.0.1:4000`
 
