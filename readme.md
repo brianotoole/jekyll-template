@@ -1,10 +1,10 @@
 # Jekyll Template, Boilerplte
 
-This is a starting point for projects using Jekyll, created by [Brian O'Toole](https://brianzotoole.com/?ref=https://github.com/brianotoole/jekyll-template)
+This is a starting point for projects using Jekyll, created by [Brian O'Toole](https://brianzotoole.com/?ref=https://github.com/brianotoole/jekyll-template){:target="_blank"}
 
 ## Getting Started
 
-#####1. Install [jekyll](https://jekyllrb.com/docs/quickstart/):
+#####1. Install [jekyll](https://jekyllrb.com/docs/quickstart/){:target="_blank"}
 
 `gem install jekyll bundler`
 
