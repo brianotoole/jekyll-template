@@ -1,10 +1,10 @@
 # Jekyll Template, Boilerplte
 
-This is a starting point for projects using Jekyll, created by [Brian O'Toole](https://brianzotoole.com/?ref=https://github.com/brianotoole/jekyll-template){:target="_blank"}
+This is a starting point for projects using Jekyll, created by [Brian O'Toole](https://brianzotoole.com/?ref=https://github.com/brianotoole/jekyll-template)
 
 ## Getting Started
 
-#####1. Install [jekyll](https://jekyllrb.com/docs/quickstart/){:target="_blank"}
+#####1. Install [jekyll](https://jekyllrb.com/docs/quickstart/)
 
 `gem install jekyll bundler`
 
@@ -12,7 +12,7 @@ You may need to include sudo at the start if there is a permissions error.
 
 #####2. Install jekyll bundle:
 
-`jekyll new sitename'
+`jekyll new sitename`
 
 #####3. Build and view the website locally:
 
