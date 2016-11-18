@@ -68,7 +68,7 @@ The `variables.scss` file includes example color, measurement, breakpoint, and t
 ```
 
 ## Base.scss
-The `base.scss	 file includes global styles for the site. Using a relative sizing approach, it sets the `body` to `font-size: 100%`. Changing the font-size on the body element will adjust the typographical scale for the entire site. This allows you to be able to adjust everything on your site by changing a single value. Increasing or decreasing the body's font-size percentage will adjust the entire site accordingly. This helps with responsive design usability.
+The `base.scss`	file includes global styles for the site. Using a relative sizing approach, it sets the `body` to `font-size: 100%`. Changing the font-size on the body element will adjust the typographical scale for the entire site. This allows you to be able to adjust everything on your site by changing a single value. Increasing or decreasing the body's font-size percentage will adjust the entire site accordingly. This helps with responsive design usability.
 
 ## Creating a Post
 Create a Markdown file within the `_posts` folder. The name structure is a backward date followed by the title of your post, for example: `2016-11-18-post-name-here.md`. All of the content within this file is written using the [Markdown language](http://daringfireball.net/projects/markdown/syntax).
