@@ -73,7 +73,7 @@ The `base.scss`	file includes global styles for the site. Using a relative sizin
 ## Creating a Post
 Create a Markdown file within the `_posts` folder. The name structure is a backward date followed by the title of your post, for example: `2016-11-18-post-name-here.md`. All of the content within this file is written using the [Markdown language](http://daringfireball.net/projects/markdown/syntax).
 
-At the top of your markdown file, include "Jekyll Front Matter", or post information like this:
+At the top of your markdown file, include ["Jekyll Front Matter"](https://jekyllrb.com/docs/frontmatter/), or post information like this:
 
 ```
 ---
@@ -84,7 +84,7 @@ categories: web
 thumbnail: /img/blog/thumb-title.jpg
 ---
 ```
-To access post variables, do so using {{ page.[var-name] }}. Ex. - To get the author name, `{{ page.author }}`
+To access post variables, do so using `{{ page.[var-name] }}`. Ex. - To get the author name, `{{ page.author }}`
 
 ## Compiled Jekyll Site
 The compiled jekyll website is built into the `_site` folder which includes all of the files needed to make the website.
