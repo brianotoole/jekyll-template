@@ -13,11 +13,17 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
-  
-# Sass 
+
+# Sass
 sass:
-    style: :compressed  
- 
-# Gems 
+    style: :compressed
+
+# Gems
 gems:
   - jekyll-feed
+
+# Excludes
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
