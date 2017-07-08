@@ -1,6 +1,6 @@
 # Jekyll Template, Boilerplate
 
-This is a starting point for projects using Jekyll, which uses Gulp for task runner, created by [Brian O'Toole](https://brianzotoole.com/?ref=https://github.com/brianotoole/jekyll-template)
+A Jekyll template boilerplate, using Gulp as a task runner, created by [Brian O'Toole](https://brianzotoole.com/?ref=https://github.com/brianotoole/jekyll-template).
 
 ## Getting Started
 
