@@ -1,6 +1,6 @@
 // Base
-* {
-  box-sizing: border-box;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 html,
 body {
@@ -93,9 +93,8 @@ img {
 }
 ul,
 ol {
-  margin: 0 0 calc-em(32px);
+  margin: 0;
   padding: 0;
-  font-size: calc-em(16px);
 }
 ul ul,
 ul ol,

@@ -1,9 +1,9 @@
 // Variables
 
-// colors - brand 
+// colors - brand
 $color-body: #0c0c0c;
-$color-primary: #D60A0B; //red
-$color-secondary: #89765F; //gold
+$color-primary: #CA054D; //magenta
+$color-secondary: #A4D4B4; //l green
 $color-primary-dark: darken($color-primary, 7%);
 $color-secondary-dark: darken($color-secondary, 7%);
 
@@ -27,7 +27,7 @@ $bp-xs: calc-em(320px); //320/16(1em = 16px) = 20em
 $bp-sm: calc-em(480px);
 $bp-md: calc-em(800px);
 $bp-lg: calc-em(960px);
-$bp-xl: calc-em(1280px); 
+$bp-xl: calc-em(1280px);
 
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Open+Sans');
