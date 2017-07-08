@@ -14,6 +14,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+# Permalinks
+permalink: pretty
+
 # Sass
 sass:
     style: :compressed

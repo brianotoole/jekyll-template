@@ -1,0 +1,11 @@
+---
+layout: page
+title: News
+description: Latest news artictles
+---
+
+{% for post in site.posts %}
+  <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
+  <a class="btn btn-primary" href="{{ post.url }}">View News Article</a>
+{% endfor %}
