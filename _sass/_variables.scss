@@ -22,13 +22,6 @@ $font-size-default: 100%; //1em = 16px
 $font-size-md: 112.5%;
 $font-size-lg: 125%;
 
-// breakpoints - relative sizings of breakpoints in ems
-$bp-xs: calc-em(320px); //320/16(1em = 16px) = 20em
-$bp-sm: calc-em(480px);
-$bp-md: calc-em(800px);
-$bp-lg: calc-em(960px);
-$bp-xl: calc-em(1280px);
-
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Open+Sans');
 $font-primary: "Open Sans", serif; //body
