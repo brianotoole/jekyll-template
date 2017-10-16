@@ -24,9 +24,19 @@ sass:
 # Gems
 gems:
   - jekyll-feed
+  - jekyll-admin
 
 # Excludes
 exclude:
   - package.json
   - node_modules
   - gulpfile.js
+
+# Jekyll Admin:
+#jekyll_admin:
+#  hidden_links:
+#    - posts
+#    - pages
+#    - staticfiles
+#    - datafiles
+#    - configuration
