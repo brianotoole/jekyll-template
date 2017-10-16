@@ -16,7 +16,7 @@ body {
   font-family: $font-primary;
   font-size: $font-size-default;
   color: $color-body;
-  @media (min-width: $bp-lg) {
+  @include for-size(tablet-portrait-up) {
     font-size: $font-size-lg;
   }
 }
@@ -33,48 +33,48 @@ h1,
   font-size: calc-em(32px);
   font-weight: 700;
   padding-top: 0.5em;
-  @media (min-width: $bp-md) {
+  @include for-size(tablet-portrait-up) {
     font-size: calc-em(56px);
   }
 }
 h2,
 .h2 {
   font-size: calc-em(28px);
-  @media (min-width: $bp-md) {
+  @include for-size(tablet-portrait-up) {
     font-size: calc-em(38px);
   }
 }
 h3,
 .h3 {
   font-size: calc-em(24px);
-  @media (min-width: $bp-md) {
+  @include for-size(tablet-portrait-up) {
     font-size: calc-em(32px);
   }
 }
 h4,
 .h4 {
   font-size: calc-em(22px);
-  @media (min-width: $bp-md) {
+  @include for-size(tablet-portrait-up) {
     font-size: calc-em(26px);
   }
 }
 h5,
 .h5 {
   font-size: calc-em(18px);
-  @media (min-width: $bp-md) {
+  @include for-size(tablet-portrait-up) {
     font-size: calc-em(20px);
   }
 }
 h6,
 .h6 {
-  @media (min-width: $bp-md) {
+  @include for-size(tablet-portrait-up) {
     font-size: calc-em(18px);
   }
 }
 p {
   font-size: calc-em(16px);
   margin: 0;
-  @media (min-width: $bp-md) {
+  @include for-size(tablet-portrait-up) {
     font-size: calc-em(18px);
   }
 }
