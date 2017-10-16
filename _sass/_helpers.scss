@@ -1,0 +1,39 @@
+// Helpers
+
+// Colors: text
+.text-white {color: $color-white}
+.text-primary {color: $color-primary}
+.text-secondary {color: $color-secondary}
+.text-body {color: $color-body}
+
+// Colors: background
+.bg-white {background: $color-white; color: $color-body;}
+.bg-primary {background: $color-primary; color: $color-white;}
+.bg-secondary {background: $color-secondary; color: $color-body;}
+.bg-gray {background: $color-gray; color: $color-body;}
+.bg-black {background: $color-black; color: $color-white;}
+
+// Layouts
+.full-height {
+  height: 100vh;
+}
+.vertical-center {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+
+// Visibility
+.hidden-phone-only {
+  @include for-size(phone-only) {display: none!important; }
+}
+.hidden-tablet-portrait-up {
+  @include for-size(tablet-portrait-up) {display: none!important; }
+}
+.visible-phone-only {
+  display: none;
+  @include for-size(phone-only) {display: block!important; }
+}
