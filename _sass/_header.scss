@@ -1,8 +1,7 @@
 .header {
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 0;
-  left: 0;
+  margin: 0;
   background: rgba($color-black, 0.25);
   transition: 0.2s background ease-in;
   z-index: 1;

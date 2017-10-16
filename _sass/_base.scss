@@ -17,6 +17,9 @@ body {
   font-size: $font-size-default;
   color: $color-body;
   @include for-size(tablet-portrait-up) {
+    font-size: $font-size-md;
+  }
+  @include for-size(big-desktop-up) {
     font-size: $font-size-lg;
   }
 }
