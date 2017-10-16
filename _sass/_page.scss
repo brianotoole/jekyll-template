@@ -27,8 +27,5 @@
     color: $color-white;
     transform: translate(-50%, -50%);
     z-index: 2;
-    > * {
-      line-height: 0.5;
-    }
   }
 }
